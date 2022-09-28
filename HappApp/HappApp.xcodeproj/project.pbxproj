@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6DE0F2428E36B6D00F0F9F2 /* HappAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F2328E36B6D00F0F9F2 /* HappAppApp.swift */; };
+		F6DE0F2428E36B6D00F0F9F2 /* HappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F2328E36B6D00F0F9F2 /* HappApp.swift */; };
 		F6DE0F2628E36B6D00F0F9F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F2528E36B6D00F0F9F2 /* ContentView.swift */; };
 		F6DE0F2828E36B6D00F0F9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DE0F2728E36B6D00F0F9F2 /* Assets.xcassets */; };
 		F6DE0F2B28E36B6D00F0F9F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DE0F2A28E36B6D00F0F9F2 /* Preview Assets.xcassets */; };
+		F6DE0F3E28E426D300F0F9F2 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F3D28E426D300F0F9F2 /* MapViewModel.swift */; };
+		F6DE0F4028E4270100F0F9F2 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F3F28E4270100F0F9F2 /* SearchViewModel.swift */; };
+		F6DE0F4228E4271700F0F9F2 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4128E4271600F0F9F2 /* AccountViewModel.swift */; };
+		F6DE0F4428E4276E00F0F9F2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4328E4276E00F0F9F2 /* Profile.swift */; };
+		F6DE0F4628E4278200F0F9F2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4528E4278200F0F9F2 /* Event.swift */; };
+		F6DE0F4828E4279200F0F9F2 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4728E4279200F0F9F2 /* FirebaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6DE0F2028E36B6D00F0F9F2 /* HappApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6DE0F2328E36B6D00F0F9F2 /* HappAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappAppApp.swift; sourceTree = "<group>"; };
+		F6DE0F2328E36B6D00F0F9F2 /* HappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappApp.swift; sourceTree = "<group>"; };
 		F6DE0F2528E36B6D00F0F9F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6DE0F2728E36B6D00F0F9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6DE0F2A28E36B6D00F0F9F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6DE0F3D28E426D300F0F9F2 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		F6DE0F3F28E4270100F0F9F2 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F6DE0F4128E4271600F0F9F2 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		F6DE0F4328E4276E00F0F9F2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F6DE0F4528E4278200F0F9F2 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F6DE0F4728E4279200F0F9F2 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,13 @@
 		F6DE0F2228E36B6D00F0F9F2 /* HappApp */ = {
 			isa = PBXGroup;
 			children = (
-				F6DE0F2328E36B6D00F0F9F2 /* HappAppApp.swift */,
-				F6DE0F2528E36B6D00F0F9F2 /* ContentView.swift */,
-				F6DE0F2728E36B6D00F0F9F2 /* Assets.xcassets */,
+				F6DE0F2328E36B6D00F0F9F2 /* HappApp.swift */,
+				F6DE0F3728E4261400F0F9F2 /* ViewModels */,
+				F6DE0F3828E4261D00F0F9F2 /* Models */,
+				F6DE0F3928E4262500F0F9F2 /* Views */,
+				F6DE0F3C28E4266900F0F9F2 /* kollektif */,
 				F6DE0F2928E36B6D00F0F9F2 /* Preview Content */,
+				F6DE0F2728E36B6D00F0F9F2 /* Assets.xcassets */,
 			);
 			path = HappApp;
 			sourceTree = "<group>";
@@ -65,6 +80,57 @@
 				F6DE0F2A28E36B6D00F0F9F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6DE0F3728E4261400F0F9F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE0F3D28E426D300F0F9F2 /* MapViewModel.swift */,
+				F6DE0F3F28E4270100F0F9F2 /* SearchViewModel.swift */,
+				F6DE0F4128E4271600F0F9F2 /* AccountViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6DE0F3828E4261D00F0F9F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE0F4328E4276E00F0F9F2 /* Profile.swift */,
+				F6DE0F4528E4278200F0F9F2 /* Event.swift */,
+				F6DE0F4728E4279200F0F9F2 /* FirebaseService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6DE0F3928E4262500F0F9F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE0F2528E36B6D00F0F9F2 /* ContentView.swift */,
+				F6DE0F3B28E4265900F0F9F2 /* HelperViews */,
+				F6DE0F3A28E4263600F0F9F2 /* CategoryViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6DE0F3A28E4263600F0F9F2 /* CategoryViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CategoryViews;
+			sourceTree = "<group>";
+		};
+		F6DE0F3B28E4265900F0F9F2 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		F6DE0F3C28E4266900F0F9F2 /* kollektif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kollektif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +204,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DE0F2628E36B6D00F0F9F2 /* ContentView.swift in Sources */,
-				F6DE0F2428E36B6D00F0F9F2 /* HappAppApp.swift in Sources */,
+				F6DE0F4428E4276E00F0F9F2 /* Profile.swift in Sources */,
+				F6DE0F4828E4279200F0F9F2 /* FirebaseService.swift in Sources */,
+				F6DE0F4228E4271700F0F9F2 /* AccountViewModel.swift in Sources */,
+				F6DE0F2428E36B6D00F0F9F2 /* HappApp.swift in Sources */,
+				F6DE0F4028E4270100F0F9F2 /* SearchViewModel.swift in Sources */,
+				F6DE0F4628E4278200F0F9F2 /* Event.swift in Sources */,
+				F6DE0F3E28E426D300F0F9F2 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +336,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HappApp/Preview Content\"";
-				DEVELOPMENT_TEAM = MUU5R72BC7;
+				DEVELOPMENT_TEAM = 37JUNCZ7DZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,8 +353,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "turner-white.HappApp";
+				PRODUCT_BUNDLE_IDENTIFIER = ioshappapp.HappApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,10 +367,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HappApp/Preview Content\"";
-				DEVELOPMENT_TEAM = MUU5R72BC7;
+				DEVELOPMENT_TEAM = 37JUNCZ7DZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,8 +384,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "turner-white.HappApp";
+				PRODUCT_BUNDLE_IDENTIFIER = ioshappapp.HappApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
