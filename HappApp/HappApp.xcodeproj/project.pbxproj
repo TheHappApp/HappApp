@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		059F16994471E297DACA2573 /* Pods_HappApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293DA3A39B0232F6689B2C36 /* Pods_HappApp.framework */; };
 		F6DE0F2428E36B6D00F0F9F2 /* HappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F2328E36B6D00F0F9F2 /* HappApp.swift */; };
 		F6DE0F2628E36B6D00F0F9F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F2528E36B6D00F0F9F2 /* ContentView.swift */; };
 		F6DE0F2828E36B6D00F0F9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DE0F2728E36B6D00F0F9F2 /* Assets.xcassets */; };
@@ -17,9 +18,13 @@
 		F6DE0F4428E4276E00F0F9F2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4328E4276E00F0F9F2 /* Profile.swift */; };
 		F6DE0F4628E4278200F0F9F2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4528E4278200F0F9F2 /* Event.swift */; };
 		F6DE0F4828E4279200F0F9F2 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F4728E4279200F0F9F2 /* FirebaseService.swift */; };
+		F6DE0F4A28E5003600F0F9F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6DE0F4928E5003600F0F9F2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		293DA3A39B0232F6689B2C36 /* Pods_HappApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E5E9672C750BC81B385FCF /* Pods-HappApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappApp.release.xcconfig"; path = "Target Support Files/Pods-HappApp/Pods-HappApp.release.xcconfig"; sourceTree = "<group>"; };
+		94CC47128888F8E8DBE8CE5C /* Pods-HappApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappApp.debug.xcconfig"; path = "Target Support Files/Pods-HappApp/Pods-HappApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F6DE0F2028E36B6D00F0F9F2 /* HappApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DE0F2328E36B6D00F0F9F2 /* HappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappApp.swift; sourceTree = "<group>"; };
 		F6DE0F2528E36B6D00F0F9F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		F6DE0F4328E4276E00F0F9F2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F6DE0F4528E4278200F0F9F2 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		F6DE0F4728E4279200F0F9F2 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		F6DE0F4928E5003600F0F9F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +44,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059F16994471E297DACA2573 /* Pods_HappApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42D04F9E327171340A916F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94CC47128888F8E8DBE8CE5C /* Pods-HappApp.debug.xcconfig */,
+				31E5E9672C750BC81B385FCF /* Pods-HappApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92620F338518CF39633DFC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293DA3A39B0232F6689B2C36 /* Pods_HappApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6DE0F1728E36B6D00F0F9F2 = {
 			isa = PBXGroup;
 			children = (
 				F6DE0F2228E36B6D00F0F9F2 /* HappApp */,
 				F6DE0F2128E36B6D00F0F9F2 /* Products */,
+				42D04F9E327171340A916F7F /* Pods */,
+				92620F338518CF39633DFC31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				F6DE0F2328E36B6D00F0F9F2 /* HappApp.swift */,
+				F6DE0F4928E5003600F0F9F2 /* GoogleService-Info.plist */,
 				F6DE0F3728E4261400F0F9F2 /* ViewModels */,
 				F6DE0F3828E4261D00F0F9F2 /* Models */,
 				F6DE0F3928E4262500F0F9F2 /* Views */,
@@ -140,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6DE0F2E28E36B6D00F0F9F2 /* Build configuration list for PBXNativeTarget "HappApp" */;
 			buildPhases = (
+				3C27D4A18B91AEE735FA0034 /* [CP] Check Pods Manifest.lock */,
 				F6DE0F1C28E36B6D00F0F9F2 /* Sources */,
 				F6DE0F1D28E36B6D00F0F9F2 /* Frameworks */,
 				F6DE0F1E28E36B6D00F0F9F2 /* Resources */,
+				23F60B059F0C84A86DD0BA8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,10 +223,53 @@
 			files = (
 				F6DE0F2B28E36B6D00F0F9F2 /* Preview Assets.xcassets in Resources */,
 				F6DE0F2828E36B6D00F0F9F2 /* Assets.xcassets in Resources */,
+				F6DE0F4A28E5003600F0F9F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F60B059F0C84A86DD0BA8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappApp/Pods-HappApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappApp/Pods-HappApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappApp/Pods-HappApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C27D4A18B91AEE735FA0034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6DE0F1C28E36B6D00F0F9F2 /* Sources */ = {
@@ -333,6 +406,7 @@
 		};
 		F6DE0F2F28E36B6D00F0F9F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CC47128888F8E8DBE8CE5C /* Pods-HappApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +438,7 @@
 		};
 		F6DE0F3028E36B6D00F0F9F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E5E9672C750BC81B385FCF /* Pods-HappApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
