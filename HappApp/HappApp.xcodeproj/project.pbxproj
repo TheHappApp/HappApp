@@ -30,6 +30,16 @@
 		F6DE0F5D28E5721300F0F9F2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F5C28E5721300F0F9F2 /* SignUpView.swift */; };
 		F6DE0F5F28E5721D00F0F9F2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F5E28E5721D00F0F9F2 /* WelcomeView.swift */; };
 		F6DE0F6128E5722E00F0F9F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DE0F6028E5722E00F0F9F2 /* Launch Screen.storyboard */; };
+		F6DE0F6328E5741D00F0F9F2 /* ClubListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6228E5741D00F0F9F2 /* ClubListView.swift */; };
+		F6DE0F6528E5743800F0F9F2 /* ConcertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6428E5743800F0F9F2 /* ConcertListView.swift */; };
+		F6DE0F6728E5744D00F0F9F2 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6628E5744D00F0F9F2 /* EventListView.swift */; };
+		F6DE0F6928E5745900F0F9F2 /* PartyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6828E5745900F0F9F2 /* PartyListView.swift */; };
+		F6DE0F6B28E5746400F0F9F2 /* CompanyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6A28E5746400F0F9F2 /* CompanyListView.swift */; };
+		F6DE0F6D28E5747800F0F9F2 /* SpeakerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6C28E5747800F0F9F2 /* SpeakerListView.swift */; };
+		F6DE0F6F28E5748F00F0F9F2 /* SportListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F6E28E5748F00F0F9F2 /* SportListView.swift */; };
+		F6DE0F7128E5749F00F0F9F2 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F7028E5749F00F0F9F2 /* FoodListView.swift */; };
+		F6DE0F7328E574AD00F0F9F2 /* ReligiousListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F7228E574AD00F0F9F2 /* ReligiousListView.swift */; };
+		F6DE0F7528E5756800F0F9F2 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0F7428E5756800F0F9F2 /* ListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +69,16 @@
 		F6DE0F5C28E5721300F0F9F2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F6DE0F5E28E5721D00F0F9F2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F6DE0F6028E5722E00F0F9F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F6DE0F6228E5741D00F0F9F2 /* ClubListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubListView.swift; sourceTree = "<group>"; };
+		F6DE0F6428E5743800F0F9F2 /* ConcertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertListView.swift; sourceTree = "<group>"; };
+		F6DE0F6628E5744D00F0F9F2 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		F6DE0F6828E5745900F0F9F2 /* PartyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListView.swift; sourceTree = "<group>"; };
+		F6DE0F6A28E5746400F0F9F2 /* CompanyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListView.swift; sourceTree = "<group>"; };
+		F6DE0F6C28E5747800F0F9F2 /* SpeakerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerListView.swift; sourceTree = "<group>"; };
+		F6DE0F6E28E5748F00F0F9F2 /* SportListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportListView.swift; sourceTree = "<group>"; };
+		F6DE0F7028E5749F00F0F9F2 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		F6DE0F7228E574AD00F0F9F2 /* ReligiousListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReligiousListView.swift; sourceTree = "<group>"; };
+		F6DE0F7428E5756800F0F9F2 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +195,15 @@
 		F6DE0F3A28E4263600F0F9F2 /* CategoryViews */ = {
 			isa = PBXGroup;
 			children = (
+				F6DE0F6428E5743800F0F9F2 /* ConcertListView.swift */,
+				F6DE0F6628E5744D00F0F9F2 /* EventListView.swift */,
+				F6DE0F6828E5745900F0F9F2 /* PartyListView.swift */,
+				F6DE0F6A28E5746400F0F9F2 /* CompanyListView.swift */,
+				F6DE0F6228E5741D00F0F9F2 /* ClubListView.swift */,
+				F6DE0F6C28E5747800F0F9F2 /* SpeakerListView.swift */,
+				F6DE0F6E28E5748F00F0F9F2 /* SportListView.swift */,
+				F6DE0F7028E5749F00F0F9F2 /* FoodListView.swift */,
+				F6DE0F7228E574AD00F0F9F2 /* ReligiousListView.swift */,
 			);
 			path = CategoryViews;
 			sourceTree = "<group>";
@@ -182,6 +211,7 @@
 		F6DE0F3B28E4265900F0F9F2 /* HelperViews */ = {
 			isa = PBXGroup;
 			children = (
+				F6DE0F7428E5756800F0F9F2 /* ListItemView.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -310,6 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DE0F5728E571C300F0F9F2 /* NewEventSheetView.swift in Sources */,
+				F6DE0F6528E5743800F0F9F2 /* ConcertListView.swift in Sources */,
+				F6DE0F6D28E5747800F0F9F2 /* SpeakerListView.swift in Sources */,
+				F6DE0F6B28E5746400F0F9F2 /* CompanyListView.swift in Sources */,
+				F6DE0F6328E5741D00F0F9F2 /* ClubListView.swift in Sources */,
+				F6DE0F7328E574AD00F0F9F2 /* ReligiousListView.swift in Sources */,
 				F6DE0F2628E36B6D00F0F9F2 /* ContentView.swift in Sources */,
 				F6DE0F5328E5719800F0F9F2 /* MapView.swift in Sources */,
 				F6DE0F5928E571CC00F0F9F2 /* HomeView.swift in Sources */,
@@ -317,13 +352,18 @@
 				F6DE0F5528E571A500F0F9F2 /* EventInfoView.swift in Sources */,
 				F6DE0F4E28E570E500F0F9F2 /* ProfileEditView.swift in Sources */,
 				F6DE0F4828E4279200F0F9F2 /* FirebaseService.swift in Sources */,
+				F6DE0F6728E5744D00F0F9F2 /* EventListView.swift in Sources */,
+				F6DE0F6F28E5748F00F0F9F2 /* SportListView.swift in Sources */,
+				F6DE0F7528E5756800F0F9F2 /* ListItemView.swift in Sources */,
 				F6DE0F4228E4271700F0F9F2 /* AccountViewModel.swift in Sources */,
 				F6DE0F2428E36B6D00F0F9F2 /* HappApp.swift in Sources */,
 				F6DE0F4028E4270100F0F9F2 /* SearchViewModel.swift in Sources */,
 				F6DE0F4C28E570D100F0F9F2 /* AccountView.swift in Sources */,
 				F6DE0F5D28E5721300F0F9F2 /* SignUpView.swift in Sources */,
 				F6DE0F5F28E5721D00F0F9F2 /* WelcomeView.swift in Sources */,
+				F6DE0F6928E5745900F0F9F2 /* PartyListView.swift in Sources */,
 				F6DE0F4628E4278200F0F9F2 /* Event.swift in Sources */,
+				F6DE0F7128E5749F00F0F9F2 /* FoodListView.swift in Sources */,
 				F6DE0F3E28E426D300F0F9F2 /* MapViewModel.swift in Sources */,
 				F6DE0F5B28E571D400F0F9F2 /* SignInView.swift in Sources */,
 				F6DE0F5028E5715B00F0F9F2 /* SearchView.swift in Sources */,

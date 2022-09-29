@@ -1,8 +1,8 @@
 //
 //  SpeakerListView.swift
-//  fp22-happ
+//  HappApp
 //
-//  Created by Turner White on 4/23/22.
+//  Created by Turner White on 9/29/22.
 //
 
 import SwiftUI
@@ -26,3 +26,4 @@ struct SpeakerListView_Previews: PreviewProvider {
         SpeakerListView(vm:SearchViewModel())
     }
 }
+
