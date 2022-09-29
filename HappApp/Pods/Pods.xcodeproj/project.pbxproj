@@ -25713,7 +25713,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -28253,6 +28253,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -28572,6 +28573,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -28980,6 +28982,7 @@
 			baseConfigurationReference = 699984F1FF723C5C0151DEA619FD2FB5 /* gRPC-C++.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/gRPC-C++";
+				DEVELOPMENT_TEAM = 37JUNCZ7DZ;
 				IBSC_MODULE = grpcpp;
 				INFOPLIST_FILE = "Target Support Files/gRPC-C++/ResourceBundle-gRPCCertificates-Cpp-gRPC-C++-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -29600,6 +29603,7 @@
 			baseConfigurationReference = D162B4AF654F01AD597D800F618B71C9 /* gRPC-C++.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/gRPC-C++";
+				DEVELOPMENT_TEAM = 37JUNCZ7DZ;
 				IBSC_MODULE = grpcpp;
 				INFOPLIST_FILE = "Target Support Files/gRPC-C++/ResourceBundle-gRPCCertificates-Cpp-gRPC-C++-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
