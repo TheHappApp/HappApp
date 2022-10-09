@@ -12,7 +12,7 @@ struct AccountView: View {
     @StateObject var avm = AccountViewModel()
     var body: some View {
         VStack(alignment: .center) {
-            Image("alecbby")
+            Image("profile")
             .renderingMode(.original)
             .resizable()
             .aspectRatio(contentMode: .fit)

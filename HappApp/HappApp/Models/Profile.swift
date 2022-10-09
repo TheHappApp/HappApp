@@ -8,7 +8,7 @@
 import Foundation
 
 struct ProfileDataStore {
-    static private let defaults = UserDefaults(suiteName: "group.com.Bailey-Van-Wormer.fp22-happ")!
+    static private let defaults = UserDefaults(suiteName: "group.com.turner-white.HappApp")!
     //Save the user's authentication email in userdefaults
     static let nameKey = "name"
     //Save the user's password in userdefaults
@@ -19,7 +19,7 @@ struct ProfileDataStore {
     }
     
     static func fetchName() -> String {
-        guard let ret = defaults.string(forKey: nameKey) else {return "Alec Alec"}
+        guard let ret = defaults.string(forKey: nameKey) else {return "First Last"}
         return ret
     }
     
@@ -27,7 +27,7 @@ struct ProfileDataStore {
         defaults.set(string, forKey: instaHandleKey)
     }
     static func fetchInsta() -> String {
-        guard let ret = defaults.string(forKey: instaHandleKey) else {return "@alecbby"}
+        guard let ret = defaults.string(forKey: instaHandleKey) else {return "@insta"}
         return ret
     }
 }
